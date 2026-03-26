@@ -1,0 +1,8 @@
+function fruit(type, grams, pricePerKg) {
+    let kg = grams / 1000;
+    let money = kg * pricePerKg;
+
+    console.log(`I need $${money.toFixed(2)} to buy ${kg.toFixed(2)} kilograms ${type}.`);
+}
+
+fruit('orange', 2500, 1.80);
